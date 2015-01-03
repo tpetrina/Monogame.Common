@@ -13,7 +13,8 @@ namespace Common
             {
                 Graphics = new GraphicsDeviceManager(this)
                 {
-                    IsFullScreen = true
+                    IsFullScreen = true,
+					SupportedOrientations = DisplayOrientation.LandscapeLeft | DisplayOrientation.LandscapeRight
                 },
                 GraphicsDevice =  GraphicsDevice
             };
